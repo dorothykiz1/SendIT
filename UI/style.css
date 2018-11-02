@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../UI/images/delivery.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+}
