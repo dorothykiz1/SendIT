@@ -112,6 +112,43 @@ header {
 /* end dropdown container */
 
 
+/* section container */
+
+.section p {
+    text-align: center;
+    color: rgb(64, 182, 182);
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.section .signIn {
+    background-color: rgb(235, 223, 223);
+    margin: 1px auto;
+    position: center;
+    width: 40%;
+    height: 60%;
+}
+
+.section .signIn h2 {
+    color: grey;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.section .signIn form input {
+    margin-bottom: 10px;
+    padding: 15px;
+    color: rgb(94, 90, 90);
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    width: 60%;
+}
+
+
+/* end section */
+
+
 /* footer */
 
 footer {
@@ -122,7 +159,7 @@ footer {
     height: 100px;
     padding: 19px 15px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
 }
 
 .location {
