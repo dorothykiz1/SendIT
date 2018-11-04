@@ -6,10 +6,22 @@ body {
     background-repeat: no-repeat;
     background-size: 1500px 1000px;
     width: 100%;
+    padding-bottom: 100px;
+    min-height: 100%;
+    position: relative;
+    height: 100%;
 }
 
 
 /* end body */
+
+
+/* 
+.main_container {
+    min-height: 100%;
+    position: relative;
+    height: 100%;
+} */
 
 
 /* header */
@@ -18,6 +30,7 @@ header {
     background-color: black;
     padding: 10px;
     width: 100%;
+    /* height: 40%; */
 }
 
 
@@ -114,39 +127,88 @@ header {
 
 /* section container */
 
+.section {
+    padding: 80px;
+}
+
 .section p {
     text-align: center;
     color: rgb(64, 182, 182);
     font-size: 70px;
     font-weight: 400;
+    padding-top: 10px;
 }
 
-.section .signIn {
+
+/* signIn container */
+
+.signIn h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.signIn {
     background-color: rgb(235, 223, 223);
     margin: 1px auto;
     position: center;
-    width: 40%;
+    width: 35%;
     height: 60%;
 }
 
-.section .signIn h2 {
+.signIn h2 {
     color: grey;
     font-size: larger;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
-.section .signIn form input {
+.signIn form input {
     margin-bottom: 10px;
     padding: 15px;
     color: rgb(94, 90, 90);
     border: none;
     border-radius: 5px;
-    margin: 15px;
+    margin: 25px;
     width: 60%;
 }
 
+.signIn form input[type="submit"] {
+    color: white;
+    background: rgb(173, 57, 57);
+    width: 67%;
+    font-size: large;
+}
+
+.signIn label {
+    display: inline;
+    text-align: left;
+    color: rgb(66, 168, 168);
+    font-size: smaller;
+}
+
+.signIn form a {
+    text-decoration: none;
+    color: rgb(201, 87, 87);
+    padding: 10px;
+    font-size: small;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* end signIn */
+
 
 /* end section */
+
+
+/* category container */
+
+.category {
+    margin-bottom: 100px;
+}
 
 
 /* footer */
@@ -156,10 +218,10 @@ footer {
     background-color: rgb(8, 6, 6);
     font-size: x-small;
     width: 100%;
-    height: 100px;
+    height: 80px;
     padding: 19px 15px;
     bottom: 0;
-    position: fixed;
+    position: absolute;
 }
 
 .location {
