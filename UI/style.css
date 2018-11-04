@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("../UI/images/delivery.jpg");
     background-repeat: no-repeat;
     background-size: 1500px 1000px;
     width: 100%;
@@ -132,11 +131,12 @@ header {
 }
 
 .section p {
+    margin-top: 0;
     text-align: center;
     color: rgb(64, 182, 182);
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 2px;
 }
 
 
@@ -211,6 +211,81 @@ header {
 }
 
 
+/* specific to signup.html file */
+
+
+/* signup container */
+
+.signUp {
+    color: white;
+    margin: 40px;
+}
+
+.signUp p {
+    color: rgb(66, 128, 133);
+    font-weight: 500;
+    font-size: larger;
+    margin: 40px;
+    text-align: center;
+}
+
+.signUp form {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(105, 102, 102);
+    border: none;
+    margin-bottom: 20px;
+    margin: 1px auto;
+}
+
+table {
+    margin: 30px;
+}
+
+table tr {
+    background-color: rgb(75, 122, 114);
+    padding: 20px;
+    border: 10px;
+    font-size: medium;
+    width: 100%
+}
+
+table td {
+    background-color: rgb(189, 178, 178);
+    border: 20px;
+    width: 100%;
+    height: 30px;
+    padding: 30px;
+}
+
+table td label {
+    font-size: small;
+    padding-right: 10px;
+    padding: 20px;
+}
+
+table td input {
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(211, 202, 202);
+    /* border: none; */
+}
+
+.sign {
+    position: center;
+    background: rgb(146, 49, 49);
+    padding: 10px;
+    margin: 30px;
+    color: white;
+    width: 90%;
+    border: none;
+    font-size: large;
+}
+
+
+/* end signup container */
+
+
 /* footer */
 
 footer {
@@ -221,7 +296,9 @@ footer {
     height: 80px;
     padding: 19px 15px;
     bottom: 0;
-    position: absolute;
+    right: 0;
+    left: 0;
+    position: fixed;
 }
 
 .location {
